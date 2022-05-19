@@ -1,7 +1,7 @@
 <script lang="ts">
   import '@src/index.css'
-  import * as c from '@clj/clojure'
-  console.log(c);
+  import clj from "@src/popup/clojure"
+  console.log(clj.hello())
 </script>
 
 <main>

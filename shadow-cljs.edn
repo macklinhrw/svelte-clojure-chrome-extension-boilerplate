@@ -9,4 +9,4 @@
  {:lib
   {:target :node-library
    :output-to "src/clojure/bundle/clojure.js"
-   :exports-var hello/hello}}}
+   :exports-var hello/exports}}}

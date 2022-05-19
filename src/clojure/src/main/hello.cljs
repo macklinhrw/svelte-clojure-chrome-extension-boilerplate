@@ -8,5 +8,5 @@
 
 (def exports #js {
                   :hello hello
-                  :newHello printHello
+                  :printHello printHello
                   })
