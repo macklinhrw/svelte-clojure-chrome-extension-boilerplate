@@ -4,7 +4,7 @@
   (+ 1 2))
 
 (defn printHello []
-  (println "Hello World!"))
+  (println "Hello, World!"))
 
 (def exports #js {
                   :hello hello

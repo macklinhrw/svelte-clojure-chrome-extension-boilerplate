@@ -2,11 +2,12 @@
   import '@src/index.css'
   import clj from "@src/popup/clojure"
   console.log(clj.hello())
+  clj.printHello();
 </script>
 
 <main>
-  <div class="bg-slate-500">
-    <p class="text-white">Hello Typescript!</p>
+  <div>
+    <p>Hello Typescript!</p>
   </div>
 </main>
 
